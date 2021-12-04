@@ -1,0 +1,60 @@
+2021-12-04 07:26:52 INFO  [main]: Account with id P8 and balance = 10000 was created
+2021-12-04 07:26:52 INFO  [main]: Account with id D9 and balance = 10000 was created
+2021-12-04 07:26:52 INFO  [main]: Account with id Q0 and balance = 10000 was created
+2021-12-04 07:26:52 INFO  [main]: Account with id K1 and balance = 10000 was created
+2021-12-04 07:26:52 INFO  [main]: Total amount on all accounts = 40000
+2021-12-04 07:26:53 INFO  [pool-1-thread-2]: Withdraw to account id = Q0. Balance =  10000, withdraw = 1099, new balance = 8901
+2021-12-04 07:26:53 INFO  [pool-1-thread-2]: Deposit to account id = K1. Balance =  10000, deposit = 1099, new balance = 11099
+2021-12-04 07:26:53 INFO  [pool-1-thread-1]: Withdraw to account id = K1. Balance =  11099, withdraw = 2543, new balance = 8556
+2021-12-04 07:26:53 INFO  [pool-1-thread-1]: Deposit to account id = P8. Balance =  10000, deposit = 2543, new balance = 12543
+2021-12-04 07:26:54 INFO  [pool-1-thread-2]: Withdraw to account id = K1. Balance =  8556, withdraw = 1007, new balance = 7549
+2021-12-04 07:26:54 INFO  [pool-1-thread-2]: Deposit to account id = Q0. Balance =  8901, deposit = 1007, new balance = 9908
+2021-12-04 07:26:55 INFO  [pool-1-thread-1]: Withdraw to account id = D9. Balance =  10000, withdraw = 9357, new balance = 643
+2021-12-04 07:26:55 INFO  [pool-1-thread-1]: Deposit to account id = K1. Balance =  7549, deposit = 9357, new balance = 16906
+2021-12-04 07:26:56 INFO  [pool-1-thread-2]: Withdraw to account id = Q0. Balance =  9908, withdraw = 830, new balance = 9078
+2021-12-04 07:26:56 INFO  [pool-1-thread-2]: Deposit to account id = P8. Balance =  12543, deposit = 830, new balance = 13373
+2021-12-04 07:26:57 INFO  [pool-1-thread-1]: Withdraw rejected to account id = D9. Balance =  643, withdraw = 6478, not enough funds
+2021-12-04 07:26:58 INFO  [pool-1-thread-2]: Withdraw to account id = Q0. Balance =  9078, withdraw = 7344, new balance = 1734
+2021-12-04 07:26:58 INFO  [pool-1-thread-2]: Deposit to account id = P8. Balance =  13373, deposit = 7344, new balance = 20717
+2021-12-04 07:26:58 INFO  [pool-1-thread-1]: Withdraw to account id = K1. Balance =  16906, withdraw = 274, new balance = 16632
+2021-12-04 07:26:58 INFO  [pool-1-thread-1]: Deposit to account id = Q0. Balance =  1734, deposit = 274, new balance = 2008
+2021-12-04 07:26:59 INFO  [pool-1-thread-1]: Withdraw to account id = P8. Balance =  20717, withdraw = 2403, new balance = 18314
+2021-12-04 07:26:59 INFO  [pool-1-thread-1]: Deposit to account id = D9. Balance =  643, deposit = 2403, new balance = 3046
+2021-12-04 07:26:59 INFO  [pool-1-thread-2]: Withdraw to account id = K1. Balance =  16632, withdraw = 3145, new balance = 13487
+2021-12-04 07:26:59 INFO  [pool-1-thread-2]: Deposit to account id = Q0. Balance =  2008, deposit = 3145, new balance = 5153
+2021-12-04 07:27:00 INFO  [pool-1-thread-1]: Withdraw to account id = Q0. Balance =  5153, withdraw = 5007, new balance = 146
+2021-12-04 07:27:00 INFO  [pool-1-thread-1]: Deposit to account id = D9. Balance =  3046, deposit = 5007, new balance = 8053
+2021-12-04 07:27:01 INFO  [pool-1-thread-2]: Withdraw to account id = K1. Balance =  13487, withdraw = 2309, new balance = 11178
+2021-12-04 07:27:01 INFO  [pool-1-thread-2]: Deposit to account id = D9. Balance =  8053, deposit = 2309, new balance = 10362
+2021-12-04 07:27:02 INFO  [pool-1-thread-1]: Withdraw to account id = P8. Balance =  18314, withdraw = 431, new balance = 17883
+2021-12-04 07:27:02 INFO  [pool-1-thread-1]: Deposit to account id = D9. Balance =  10362, deposit = 431, new balance = 10793
+2021-12-04 07:27:03 INFO  [pool-1-thread-1]: Withdraw to account id = P8. Balance =  17883, withdraw = 8073, new balance = 9810
+2021-12-04 07:27:03 INFO  [pool-1-thread-1]: Deposit to account id = K1. Balance =  11178, deposit = 8073, new balance = 19251
+2021-12-04 07:27:03 INFO  [pool-1-thread-2]: Withdraw to account id = D9. Balance =  10793, withdraw = 3492, new balance = 7301
+2021-12-04 07:27:03 INFO  [pool-1-thread-2]: Deposit to account id = Q0. Balance =  146, deposit = 3492, new balance = 3638
+2021-12-04 07:27:05 INFO  [pool-1-thread-2]: Withdraw to account id = P8. Balance =  9810, withdraw = 4693, new balance = 5117
+2021-12-04 07:27:05 INFO  [pool-1-thread-2]: Deposit to account id = Q0. Balance =  3638, deposit = 4693, new balance = 8331
+2021-12-04 07:27:05 INFO  [pool-1-thread-1]: Withdraw to account id = P8. Balance =  5117, withdraw = 4587, new balance = 530
+2021-12-04 07:27:05 INFO  [pool-1-thread-1]: Deposit to account id = Q0. Balance =  8331, deposit = 4587, new balance = 12918
+2021-12-04 07:27:06 INFO  [pool-1-thread-1]: Withdraw to account id = Q0. Balance =  12918, withdraw = 1724, new balance = 11194
+2021-12-04 07:27:06 INFO  [pool-1-thread-1]: Deposit to account id = K1. Balance =  19251, deposit = 1724, new balance = 20975
+2021-12-04 07:27:06 INFO  [pool-1-thread-2]: Withdraw to account id = D9. Balance =  7301, withdraw = 7138, new balance = 163
+2021-12-04 07:27:06 INFO  [pool-1-thread-2]: Deposit to account id = Q0. Balance =  11194, deposit = 7138, new balance = 18332
+2021-12-04 07:27:07 INFO  [pool-1-thread-1]: Withdraw to account id = K1. Balance =  20975, withdraw = 7940, new balance = 13035
+2021-12-04 07:27:07 INFO  [pool-1-thread-1]: Deposit to account id = Q0. Balance =  18332, deposit = 7940, new balance = 26272
+2021-12-04 07:27:08 INFO  [pool-1-thread-2]: Withdraw rejected to account id = P8. Balance =  530, withdraw = 9435, not enough funds
+2021-12-04 07:27:09 INFO  [pool-1-thread-1]: Withdraw rejected to account id = P8. Balance =  530, withdraw = 2113, not enough funds
+2021-12-04 07:27:09 INFO  [pool-1-thread-2]: Withdraw rejected to account id = P8. Balance =  530, withdraw = 1266, not enough funds
+2021-12-04 07:27:11 INFO  [pool-1-thread-2]: Withdraw to account id = Q0. Balance =  26272, withdraw = 3964, new balance = 22308
+2021-12-04 07:27:11 INFO  [pool-1-thread-2]: Deposit to account id = P8. Balance =  530, deposit = 3964, new balance = 4494
+2021-12-04 07:27:11 INFO  [pool-1-thread-1]: Withdraw rejected to account id = D9. Balance =  163, withdraw = 4823, not enough funds
+2021-12-04 07:27:12 INFO  [pool-1-thread-1]: Withdraw rejected to account id = D9. Balance =  163, withdraw = 9095, not enough funds
+2021-12-04 07:27:13 INFO  [pool-1-thread-2]: Withdraw to account id = P8. Balance =  4494, withdraw = 4325, new balance = 169
+2021-12-04 07:27:13 INFO  [pool-1-thread-2]: Deposit to account id = Q0. Balance =  22308, deposit = 4325, new balance = 26633
+2021-12-04 07:27:14 INFO  [pool-1-thread-1]: Withdraw to account id = K1. Balance =  13035, withdraw = 38, new balance = 12997
+2021-12-04 07:27:14 INFO  [pool-1-thread-1]: Deposit to account id = D9. Balance =  163, deposit = 38, new balance = 201
+2021-12-04 07:27:14 INFO  [pool-1-thread-2]: Withdraw to account id = Q0. Balance =  26633, withdraw = 4931, new balance = 21702
+2021-12-04 07:27:14 INFO  [pool-1-thread-2]: Deposit to account id = K1. Balance =  12997, deposit = 4931, new balance = 17928
+2021-12-04 07:27:16 INFO  [pool-1-thread-1]: Withdraw to account id = K1. Balance =  17928, withdraw = 6028, new balance = 11900
+2021-12-04 07:27:16 INFO  [pool-1-thread-1]: Deposit to account id = D9. Balance =  201, deposit = 6028, new balance = 6229
+2021-12-04 07:27:16 INFO  [main]: Total amount on all accounts = 40000
